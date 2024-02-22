@@ -1,1 +1,37 @@
 hiii this is cs066!!!!!!!
+p1p2
+mkdir exp1
+git init
+git add file1.txt
+git commit -m "message"
+git log
+git checkout -b featurebranch
+git checkout master
+git merge featurebranch
+git branch --delete featurebranch
+p3
+git add
+git commit -m ""
+git checkout -b sourcebranch
+file1.txt
+git stash save "file1 modified"
+git checkout -b targetbranch
+git stash apply
+file1.txt
+git stash list
+git stash drop stash@{0}
+p4p5
+git init 
+git clone https
+cd repo1
+git add README.md
+git commit -m "modified local machine"
+git fetch origin
+git rebase origin
+git add README.md
+git commit -m "second commit"
+
+git fetch origin
+git rebase origin
+git rebase --continue
+git push origin sourcebranch
