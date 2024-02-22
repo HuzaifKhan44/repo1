@@ -1,0 +1,11 @@
+p3
+git add
+git commit -m ""
+git checkout -b sourcebranch
+file1.txt
+git stash save "file1 modified"
+git checkout -b targetbranch
+git stash apply
+file1.txt
+git stash list
+git stash drop stash@{0}
