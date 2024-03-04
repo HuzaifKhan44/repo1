@@ -1,11 +1,2 @@
 hiii this is cs066!!!!!!!
-p1p2
-mkdir exp1
-git init
-git add file1.txt
-git commit -m "message"
-git log
-git checkout -b featurebranch
-git checkout master
-git merge featurebranch
-git branch --delete featurebranch
+
